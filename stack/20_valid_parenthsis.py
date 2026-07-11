@@ -1,9 +1,9 @@
-class Solution(object):
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
+# https://leetcode.com/problems/valid-parentheses/description/
+
+# Bruteforce Approach
+#Time Complexity: O(n)
+class Solution:
+    def isValid(self, s: str) -> bool:
         if len(s) % 2 != 0:
             return False
 
